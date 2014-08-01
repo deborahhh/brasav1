@@ -55,7 +55,7 @@
 	if(countdown_timezone == '')
 		countdown_timezone = null;
 			
-	jQuery("#countdown-widget").countdown({
+	/*jQuery("#countdown-widget").countdown({
 		until: launchTime, 
 		format: "dHMS",
 		labels: ['','','','','','',''],
@@ -64,7 +64,7 @@
 
 		labels: ['Years', 'Months', 'Weeks', 'Days', 'Hours', 'Minutes', 'Seconds'],
 		labels1: ['Year', 'Month', 'Week', 'Day', 'Hour', 'Minute', 'Seconduy'],
-	});
+	});*/
 
 
 	// Video Background
