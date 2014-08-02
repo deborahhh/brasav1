@@ -16,16 +16,16 @@
 
 	<section class="col col-md-4">
   <div class="field">
-    <%= f.label :name %><br>
-    <label class="input"><%= f.text_field :name %></label>
+    <%= f.label :name, "Nome Completo" %><br>
+    <label class="input"><%= f.text_field :name, required: true %></label>
   </div>
   <div class="field">
     <%= f.label :email %><br>
-    <label class="input"><%= f.text_field :email %></label>
+    <label class="input"><%= f.text_field :email, required: true %></label>
   </div>
   <div class="field">
-    <%= f.label :graduation_year %><br>
-    <label class="input"><%= f.number_field :graduation_year %></label>
+    <%= f.label :graduation_year, "Ano de Graduação" %><br>
+    <label class="input"><%= f.number_field :graduation_year, required: true %></label>
   </div>
  </section>
 
@@ -33,20 +33,20 @@
  <div class="field">
     <%= f.label :major %><br>
     
-		<label class="input"><%= f.text_field :major %></label>
+		<label class="input"><%= f.text_field :major, required: true %></label>
   </div>
   <div class="field">
-    <%= f.label :university %><br>
-    <label class="input"><%= f.text_field :university %></label>
+    <%= f.label :university, "Universidade" %><br>
+    <label class="input"><%= f.text_field :university, required: true %></label>
   </div>
   <div class="field">
-    <%= f.label :gender %><br>
-    <label class="input"><%= f.text_field :gender %></label>
-  </div>
-  <div class="field">
-    <%= f.label :role %><br>
-    <label class="input"><%= f.text_field :role %></label>
-  </div>
+		<div class="col-md-4 col-sm-4 col-xs-4">
+			<label class="radio"><%= f.radio_button :gender, "female" %><i></i>Feminino</label>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4">
+			<label class="radio"><%= f.radio_button :gender, "male" %><i></i>Masculino</label>
+  	</div>
+	</div>
   <div class="actions">
     <%= f.button class: "button" do %>
 			<i class="fa fa-check"></i>
