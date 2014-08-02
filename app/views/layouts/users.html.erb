@@ -1,0 +1,31 @@
+<% content_for :content do %>
+	<section class="page-title">
+					<div class="container">
+
+						<header>
+
+							<!--<ul class="breadcrumb">
+								<li><a href="#">Pages</a></li>
+								<li class="active">Account Settings Page</li>
+							</ul>-->
+
+							<h2><!-- Page Title -->
+								<strong>Registre-se</strong> aqui
+							</h2><!-- /Page Title -->
+
+						</header>
+
+					</div>			
+				</section>
+				
+				<section>
+								<div class="container">
+
+									<div class="row">
+										<%= yield %>
+									</div>
+
+								</div>
+							</section>
+<% end %>
+<%= render file: "layouts/application" %>
