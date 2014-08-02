@@ -48,7 +48,10 @@
     <label class="input"><%= f.text_field :role %></label>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.button class: "button" do %>
+			<i class="fa fa-check"></i>
+			Completar Registro
+		<% end %>
   </div>
 </section>
 
