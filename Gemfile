@@ -38,7 +38,7 @@ ruby '2.0.0'
 
 
 # Brasa gems
-
+gem 'devise'
 gem "font-awesome-rails"
 
 # Use ActiveModel has_secure_password
