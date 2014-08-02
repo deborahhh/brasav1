@@ -51,7 +51,13 @@
 			<!--[if lte IE 8]>
 				<script src="assets/plugins/respond.js"></script>
 			<![endif]-->
-		</head>
+        </head>
+        <style>
+            .btn-primary, .btn-primary:hover {
+                background-color: #0d730d;
+                border-color: #0d730d;
+            }
+        </style>
 	</head>
 
 	  <body class="smoothscroll">
@@ -94,49 +100,6 @@
 						</div><!-- /.container -->
 					</header>
 					<!-- /Top Bar -->
-
-
-					<!-- Top Nav -->
-					<header id="topNav">
-						<div class="container">
-
-							<!-- Mobile Menu Button -->
-							<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
-								<i class="fa fa-bars"></i>
-							</button>
-
-							<!-- Search -->
-							<!--<form class="search" method="get" action="http://theme.stepofweb.com/Epona/v1.0/HTML/search.html">
-								<input type="text" class="form-control" name="s" value="" placeholder="Search">
-								<button class="fa fa-search"></button>
-							</form>-->
-							<!-- /Search -->
-
-							<!-- Top Nav -->
-							<div class="navbar-collapse nav-main-collapse collapse">
-								<nav class="nav-main">
-
-
-									<ul id="topMain" class="nav nav-pills nav-main">
-										<li class="mega-menu active">
-											<%= link_to root_path do %>
-												HOME <span>welcome</span>
-											<% end %>
-										</li>
-										<li class="mega-menu">
-											<%= link_to root_path do %>
-												LOGIN <span>welcome</span>
-											<% end %>
-										</li>
-									</ul>
-
-								</nav>
-							</div>
-							<!-- /Top Nav -->
-
-						</div><!-- /.container -->
-					</header>
-					<!-- /Top Nav -->
 
 				</div>
 	
