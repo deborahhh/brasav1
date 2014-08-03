@@ -37,11 +37,11 @@
   </div>
   <div class="field">
     <%= f.label :university, "Universidade" %><br>
-    <label class="input"><%= f.text_field :university, required: true %></label>
+    <label class="input"><%= f.select :university, options_for_select(["", "Brown University", "Columbia University", "Cornell University", "Georgetown University", "Georgia Institute of Technology", "Harvard University", "Massachusetts Institute of Technology", "New York University", "Ohio State University", "Pennsylvania State University", "Stanford University", "The University of Chicago", "University of California, Berkeley", "University of California, Davis", "University of California, San Diego", "University of Michigan", "University of Miami", "University of Pennsylvania", "University of Southern California", "University of Virginia", "Yale University", "Worcester Polytechnic Institute", "Other"]) %></label>
   </div>
   <div class="field">
 		<div class="col-md-4 col-sm-4 col-xs-4">
-			<label class="radio"><%= f.radio_button :gender, "female" %><i></i>Feminino</label>
+			<label class="radio"><%= f.radio_button :gender, "female", checked: true %><i></i>Feminino</label>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-4">
 			<label class="radio"><%= f.radio_button :gender, "male" %><i></i>Masculino</label>
