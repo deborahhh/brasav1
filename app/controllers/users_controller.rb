@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  
+  before_action :get_out, only: [:index, :show, :edit, :update, :destroy]
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
@@ -28,7 +30,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
+        format.html { redirect_to root_path, notice: 'Seu cadastro foi efetuado com sucesso' }
         format.json { render action: 'show', status: :created, location: @user }
       else
         format.html { render action: 'new' }
@@ -62,6 +64,11 @@ class UsersController < ApplicationController
   end
 
   private
+    # Doesn't allow anyone ine
+    def get_out
+      redirect_to root_path
+    end
+
     # Use callbacks to share common setup or constraints between actions.
     def set_user
       @user = User.find(params[:id])

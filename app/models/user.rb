@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   # Fields are name, email, graduation_year, major, university, gender, role
   validates :name, :email, :graduation_year, :major, :university, :role, :presence => true
+  validates :email, :uniqueness => true
 
   before_validation(on: :create) do
     if self.role.blank?
