@@ -1,5 +1,7 @@
 Brasa::Application.routes.draw do
   resources :users
+  
+  get 'estudar_nos_eua' => 'welcome#estudar_nos_eua'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
