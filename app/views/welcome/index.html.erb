@@ -8,7 +8,7 @@
 						<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 
 							<!-- COVER IMAGE -->
-							<img src="assets/images/1x1.png" data-lazyload="assets/images/demo/wall.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+							<img src="assets/images/1x1.png" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
 
 
 							<div class="tp-caption large_bold_white sft stb"
@@ -41,7 +41,7 @@
 						<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 
 							<!-- COVER IMAGE -->
-							<img src="assets/images/1x1.png" data-lazyload="assets/images/demo/wall.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+							<img src="assets/images/1x1.png"  alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
 
 							<div class="tp-caption lft boxshadow" 
 								data-x="70" 
@@ -74,7 +74,7 @@
 						<li data-transition="fade" data-slotamount="14"  data-masterspeed="300" data-delay="10000">
 
 							<!-- COVER IMAGE -->
-							<img src="assets/images/1x1.png" data-lazyload="assets/images/demo/wall.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+							<img src="assets/images/1x1.png"  alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
 
 							<div class="tp-caption lft boxshadow" 
 								data-x="70" 
@@ -200,42 +200,15 @@
 					<div class="divider half-margins hidden-xs"><!-- divider --></div>
 
 					<div class="row text-left hidden-xs">
-						<div class="col-md-4 col-sm-4">
-							<ul class="list-icon spaced check-circle">
-								<li>Brown University</li>
-								<li>California Institute of Technology</li>
-								<li>Columbia University</li>
-								<li>Cornell University</li>
-								<li>Georgetown University</li>
-								<li>Georgia Institute of Technology</li>
-								<li>Harvard University</li>
-								<li>Massachusetts Institute of Technology</li>
-								
-							</ul>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<ul class="list-icon spaced check-circle">
-								<li>New York University</li>
-								<li>Ohio State University</li>
-								<li>Pennsylvania State University</li>
-								<li>Stanford University</li>
-								<li>The University of Chicago</li>
-								<li>University of California, Berkeley</li>
-								
-									<li>University of California, Davis</li>
-							</ul>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<ul class="list-icon spaced check-circle">
-								<li>University of California, San Diego</li>
-								<li>University of Michigan</li>
-								<li>University of Pennsylvania</li>
-								<li>University of Southern California</li>
-								<li>University of Virginia</li>
-								<li>Worcester Polytechnic Institute</li>
-								<li>Yale University</li>
-							</ul>
-						</div>
+								<% @unis.each do |col| %>
+									<div class="col-md-4 col-sm-4">
+										<ul class="list-icon spaced check-circle">
+											<% col.each do |uni| %>
+												<li><%= uni %></li>
+											<% end %>
+										</ul>
+									</div>	
+								<% end %>
 					</div>
 
 				</div>
