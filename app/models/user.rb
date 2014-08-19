@@ -1,4 +1,9 @@
 class User < ActiveRecord::Base
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable
+         
   # Fields are name, email, graduation_year, major, university, gender, role
   validates :name, :email, :graduation_year, :major, :university, :role, :presence => true
   validates :email, :uniqueness => true
