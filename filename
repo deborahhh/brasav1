@@ -1,0 +1,82 @@
+id,name,email,graduation_year,major,university,gender,role,created_at,updated_at
+1,Gabriel Lima Guimaraes,gabrielguimaraes@college.harvard.edu,2017,Computer Science,Harvard University,male,regular,2014-08-03 16:06:37.139963,2014-08-03 16:06:37.139963
+2,Silvia Gondim dos Santos-Pereira,silvia_dos_santos-pereira@alumni.brown.edu,2012,Economics and Political Science,Brown University,female,regular,2014-08-03 23:11:09.969268,2014-08-03 23:11:09.969268
+3,Eduardo Rubini,erubini@uchicago.edu,2017,Economics,The University of Chicago,male,regular,2014-08-03 23:11:11.809698,2014-08-03 23:11:11.809698
+4,Stephanie Feder,stephanie_feder@brown.edu,2016,Business,Brown University,female,regular,2014-08-03 23:11:27.839827,2014-08-03 23:11:27.839827
+5,Ana Garcia,aag2sj@virginia.edu,2017,Economics,University of Virginia,female,regular,2014-08-03 23:12:11.317979,2014-08-03 23:12:11.317979
+6,Fernanda Gushken,gushken@usc.edu,2017,Industrial Engineering,University of Southern California,female,regular,2014-08-03 23:12:27.238936,2014-08-03 23:12:27.238936
+7,Rodrigo Bernardes Dias,rodrigo.dias@agu.gov.br,2007,Master in Laws,Georgetown University,male,regular,2014-08-03 23:13:57.101164,2014-08-03 23:13:57.101164
+8,ENY BASQUES,eny.basques@gmail.com,2011,LAW,Georgetown University,female,regular,2014-08-03 23:14:18.378598,2014-08-03 23:14:18.378598
+9,Fernando Schnaidman,fschnaid@outlook.com,2014,Industrial and Operations Engineering,University of Michigan,male,regular,2014-08-03 23:15:23.417221,2014-08-03 23:15:23.417221
+10,Gustavo Haddad Braga,braga@alum.mit.edu,2014,Electrical Engineering & Computer Science,Massachusetts Institute of Technology,male,regular,2014-08-03 23:16:22.733433,2014-08-03 23:16:22.733433
+11,Daniel Woods,dmw78@georgetown.edu,2016,International Politics,Georgetown University,male,regular,2014-08-03 23:17:06.055454,2014-08-03 23:17:06.055454
+12,Iago Bueno Bojczuk Camargo,iagob@uoregon.edu,2018,Jornalismo / Relações Internacionais,Other,male,regular,2014-08-03 23:48:30.740502,2014-08-03 23:48:30.740502
+13,MARK M. CHO,CHO_MARK@HOTMAIL.COM,1997,LAW,University of Virginia,male,regular,2014-08-03 23:58:50.376111,2014-08-03 23:58:50.376111
+14,Vinicius Henrique Martinson Santos,vi_hmartinson@hotmail.com,2018,Computer Engineering,Other,female,regular,2014-08-03 23:58:58.96853,2014-08-03 23:58:58.96853
+15,Nathália Leite Santos,ms.nathsantos@gmail.com,2018,Physics,Other,female,regular,2014-08-04 00:32:16.05522,2014-08-04 00:32:16.05522
+16,Karina do Carmo Garcia,karinacgarcia2@gmail.com,2013,Brazil,Columbia University,female,regular,2014-08-04 01:04:18.260445,2014-08-04 01:04:18.260445
+17,Lara Timbó Araújo,laratimbo7@gmail.com,2017,Electrical Engineering and Computer Science,Massachusetts Institute of Technology,female,regular,2014-08-04 01:09:50.402701,2014-08-04 01:09:50.402701
+18,Aline Avigdor Altschul,aaa3ja@virginia.edu,2015,Business (Finance and Marketing),University of Virginia,female,regular,2014-08-04 01:13:08.062327,2014-08-04 01:13:08.062327
+19,Renan Alex Kuntz ,renankuntz@gmail.com,2018,Chemistry ,Other,male,regular,2014-08-04 01:14:18.329462,2014-08-04 01:14:18.329462
+20,Enzo Hideki Nakamura,enzo25estrela@gmail.com,0,Computer Science,Stanford University,male,regular,2014-08-04 01:17:11.446907,2014-08-04 01:17:11.446907
+21,Renan Ferreirinha Carneiro,rcarneiro@college.harvard.edu,2017,Economics,Harvard University,male,regular,2014-08-04 01:21:48.960688,2014-08-04 01:21:48.960688
+22,Clarissa Crego Forneris,clarissaforneris@gmail.com,2013,Chemistry,Massachusetts Institute of Technology,female,regular,2014-08-04 01:35:43.206509,2014-08-04 01:35:43.206509
+23,Gustavo Beltrão Arôxa Bezerra de Lima,gustavo.b.lima@vanderbilt.edu,2016,Political Science,Other,male,regular,2014-08-04 01:42:44.331846,2014-08-04 01:42:44.331846
+24,Nathan Ariel Azevedo ,nathanarielazevedo@gmail.con,3,j,Harvard University,male,regular,2014-08-04 02:04:55.322327,2014-08-04 02:04:55.322327
+25,Matheus Luiz Oliveira Pena,matheus.pena@hotmail.com,0,Engenheiro Aeroespacial,Massachusetts Institute of Technology,male,regular,2014-08-04 02:08:32.053331,2014-08-04 02:08:32.053331
+26,Luis Felipe Woellner Duarte Pereira,lpereira@bates.edu,2016,Economics,Other,male,regular,2014-08-04 02:20:37.348016,2014-08-04 02:20:37.348016
+27,Lucas Pires Klein,lucaspklein@hotmail.com,4,Bussiness,Other,male,regular,2014-08-04 03:18:23.653372,2014-08-04 03:18:23.653372
+28,Rene de Souza Vianello Argento,rene.argento@gmail.com,2017,General Management,Harvard University,male,regular,2014-08-04 03:41:58.360634,2014-08-04 03:41:58.360634
+29,Gabriel Nakajima An,gabriel.nakajima.an@gmail.com,2018,Aerospace Engineering,Georgia Institute of Technology,male,regular,2014-08-04 04:25:43.190559,2014-08-04 04:25:43.190559
+30,Duilio Helfenstens,duiliohelf@gmail.com,2017,Civil Engineering,Other,female,regular,2014-08-04 05:52:20.807467,2014-08-04 05:52:20.807467
+31,Antonio Geloneze Neto,ageloneze@gmail.com,1995,Ph D,Brown University,male,regular,2014-08-04 11:18:53.651732,2014-08-04 11:18:53.651732
+32,Renan Felip Neres Santos,renanfelip_@hotmail.com,0,Renan,Other,male,regular,2014-08-04 12:57:21.132893,2014-08-04 12:57:21.132893
+33,Julia Chueiri Genovezzi,juliacgeno@gmail.com,1,Psychology,Other,female,regular,2014-08-04 12:57:24.472417,2014-08-04 12:57:24.472417
+34,Nicole Merrullo Frutuoso,njmerrullo@gmail.com,4,Ciencia Politica,Other,female,regular,2014-08-04 14:10:33.387105,2014-08-04 14:10:33.387105
+35,André Rufino,andrerufinobr@hotmail.com,0,Medicina,Other,male,regular,2014-08-04 14:35:50.88228,2014-08-04 14:35:50.88228
+36,Joao Henrique de Aquino Vogel,jvogel@college.harvard.edu,2016,Sociologia,Harvard University,male,regular,2014-08-04 16:18:08.127194,2014-08-04 16:18:08.127194
+37,Ardel Ednor Nunes Junior,ardel-junior1@hotmail.com,0,Ainda não sei,Harvard University,male,regular,2014-08-04 16:52:46.562444,2014-08-04 16:52:46.562444
+38,Ardel Ednor Nunes Junior,ardeljunior@gmail.com,0,Ainda não sei,Harvard University,male,regular,2014-08-04 16:53:00.359551,2014-08-04 16:53:00.359551
+39,Victoria Bettarello Bertasoli,vbertasoli@gatech.edu,2017,Industrial Engineering,Georgia Institute of Technology,female,regular,2014-08-04 19:20:02.216625,2014-08-04 19:20:02.216625
+40,Gustavo Mendes Machado,machado.gustavo@gatech.edu,2017,Engenharia Civil,Georgia Institute of Technology,male,regular,2014-08-04 19:20:56.006105,2014-08-04 19:20:56.006105
+41,Rafael Metzger Gandra,rafagandra96@gmail.com,2018,Mechanical Engineering,Georgia Institute of Technology,male,regular,2014-08-04 19:27:54.679444,2014-08-04 19:27:54.679444
+42,Jonas Garcia Lopes de Castro,jgdecast@ucsd.edu,2016,Chemical Engineering,"University of California, San Diego",male,regular,2014-08-04 20:12:05.751485,2014-08-04 20:12:05.751485
+43,Viviane Shizue Nakasse de Freitas,vn.defreitas@gmail.com,2016,Finance,University of Pennsylvania,female,regular,2014-08-04 21:12:01.848079,2014-08-04 21:12:01.848079
+44,Ana Beatriz Oliveira de Barros Falcão de Lacerda,analacfal@gmail.com,0,law,University of Miami,female,regular,2014-08-04 21:25:41.500548,2014-08-04 21:25:41.500548
+45,Thierry Candido,thierry.cp@hotmail.com,2015,engenharia,Massachusetts Institute of Technology,male,regular,2014-08-04 21:28:08.047258,2014-08-04 21:28:08.047258
+46,Flavia Rodrigues Mugayar Barbosa,flavia.rmbarbosa@gmail.com,2017,Cultural Anthropology,Other,female,regular,2014-08-04 21:30:23.423023,2014-08-04 21:30:23.423023
+47,Leonardo Arnizaut Gélio,leogelio@hotmail.com,-4,Film and Television,New York University,male,regular,2014-08-04 22:01:15.315966,2014-08-04 22:01:15.315966
+48,Marina Lemos Pires,marinalemosp@gmail.com,2015,LLM,Harvard University,female,regular,2014-08-04 22:54:06.283593,2014-08-04 22:54:06.283593
+49,Matheus Padrón da Silveira,padron.silveira@gmail.com,2018,Aerospace Engineering,Georgia Institute of Technology,male,regular,2014-08-04 22:54:29.442218,2014-08-04 22:54:29.442218
+50,Jean Guilherme Pereira Vasconcelos,jeangpvascelos@gmail.com,2018,.,Harvard University,male,regular,2014-08-04 23:01:18.057581,2014-08-04 23:01:18.057581
+51,Kevin Lin,k9lin@ucsd.edu,2016,Nanoengineering,"University of California, San Diego",male,regular,2014-08-05 00:04:14.567848,2014-08-05 00:04:14.567848
+52,Rafael Nunes Blanes,rblanes31@gmail.com,2018,Computer Science,Georgia Institute of Technology,male,regular,2014-08-05 00:04:18.14134,2014-08-05 00:04:18.14134
+53,Andre Lucas Melo,andre.melo@yale.edu,2018,Economics / Global Affairs,Yale University,male,regular,2014-08-05 00:31:40.92431,2014-08-05 00:31:40.92431
+54,Wiliam Henrique de Sousa Ferreira,wiliam.uit@gmail.com,2015,Mechanical Engineering,Other,male,regular,2014-08-05 04:13:04.588257,2014-08-05 04:13:04.588257
+55,Renata Castilho,rrc2128@columbia.edu,2017,Economics and Political Science,Columbia University,female,regular,2014-08-05 12:02:52.830755,2014-08-05 12:02:52.830755
+56,Guilherme Martins,ggmartins@gmail.com,2004,Computer Science,Georgia Institute of Technology,male,regular,2014-08-05 18:19:34.509122,2014-08-05 18:19:34.509122
+57,Daniela Amadei Carneiro Leão,dandaleao@gmail.com,2015,Political Science,Other,female,regular,2014-08-06 01:18:37.512851,2014-08-06 01:18:37.512851
+58,Luis Marques Moreira da Costa,lc436@georgetown.edu,2014,International Affairs,Georgetown University,male,regular,2014-08-06 01:21:27.498946,2014-08-06 01:21:27.498946
+59,Isabella Freyre,isabella.freyre@btgpactual.com,2014,Economics,Georgetown University,female,regular,2014-08-06 13:20:19.770473,2014-08-06 13:20:19.770473
+60,Mariana Cravo Vertoni,mcvertoni@wpi.edu,2016,Engenharia Química,Worcester Polytechnic Institute,female,regular,2014-08-06 21:55:19.096951,2014-08-06 21:55:19.096951
+61,Daniel Gildin,dgildin@umich.edu,2015,Mechanical Engineering,University of Michigan,male,regular,2014-08-06 22:04:23.063313,2014-08-06 22:04:23.063313
+62,Amanda Coelho,carola112004@yahoo.com.br,4,Sanitation and Environmental Engineering,Other,female,regular,2014-08-07 19:53:03.837002,2014-08-07 19:53:03.837002
+63,Roberto Sallouti,roberto.sallouti@btgpactual.com,1994,Economics,University of Pennsylvania,male,regular,2014-08-07 20:53:30.494865,2014-08-07 20:53:30.494865
+64,João Vítor Araújo Grossi,jvagrossi@gmail.com,1,Chemical Engineering,Other,male,regular,2014-08-08 23:20:43.495414,2014-08-08 23:20:43.495414
+65,Lucas Tambasco,ltambasc@mit.edu,2013,Matematica/Fisica,Massachusetts Institute of Technology,male,regular,2014-08-10 16:47:01.958451,2014-08-10 16:47:01.958451
+66,Luana Lopes Lara,luana@mit.edu,2018,Engenharia elétrica,Massachusetts Institute of Technology,female,regular,2014-08-11 15:53:19.623676,2014-08-11 15:53:19.623676
+67,Fabio Kenji Arai,fabiok.arai@gmail.com,2018,Engineering (Undecided),Other,male,regular,2014-08-12 16:39:47.688604,2014-08-12 16:39:47.688604
+68,Fabio Kenji Arai,farai@caltech.edu,2018,Engineering (Undecided) - Caltech,Other,male,regular,2014-08-12 16:53:58.695619,2014-08-12 16:53:58.695619
+69,Luis Felipe Goncalves Morgado,lf.gmorgado@gmail.com,2012,Economics & Mathematics,Columbia University,male,regular,2014-08-13 02:44:53.89084,2014-08-13 02:44:53.89084
+70,José Pedro Cacheado Neto,jp_cacheado@hotmail.com,2016,Economics,"University of California, San Diego",male,regular,2014-08-13 14:47:53.899627,2014-08-13 14:47:53.899627
+71,Victoria Daniela Collyer Ioppi,victoria.ioppi@hotmail.com,4,Business,Other,female,regular,2014-08-13 20:21:13.696748,2014-08-13 20:21:13.696748
+72,Maria Eduarda Silva,zezate@bigprofessor.so,2015,Economics,Brown University,female,regular,2014-08-13 21:08:09.270451,2014-08-13 21:08:09.270451
+73,Patricia Dranoff,patriciadranoff@gmail.com,2015,Desenho Industrial - RISD,Other,female,regular,2014-08-14 14:35:44.993533,2014-08-14 14:35:44.993533
+74,Vanessa Rocha Machado,vanessa.ufsc@gmail.com,2015,Chemistry,Massachusetts Institute of Technology,female,regular,2014-08-14 19:16:49.308418,2014-08-14 19:16:49.308418
+75,Bernardo Villaça Renault Penteado,pbern@seas.upenn.edu,2018,Mechanical engineering & Economics,University of Pennsylvania,male,regular,2014-08-15 14:33:42.750887,2014-08-15 14:33:42.750887
+76,Bruno Dorigo Tambasco,Btambasc@mit.edu,2015,"Management Science, Comparative Media Studies",Massachusetts Institute of Technology,male,regular,2014-08-17 22:24:54.95703,2014-08-17 22:24:54.95703
+77,Tomas Kepple Borba,tomasborba@gmail.com,2015,Computer Engineering,Other,male,regular,2014-08-18 02:30:37.463719,2014-08-18 02:30:37.463719
+78,Gabriela Fusco Mendes,gabrielamendes015@gmail.com,2015,Electronic Engineering,Cornell University,female,regular,2014-08-18 05:49:29.809066,2014-08-18 05:49:29.809066
+79,Gabriela Teixeira Borges ,gtb47@cornell.edu,2016,"Feminist, Gender, and Sexuality Studies ",Cornell University,female,regular,2014-08-18 13:57:13.460754,2014-08-18 13:57:13.460754
+80,Patrick Braga,pcb68@cornell.edu,2016,Urban and Regional Studies,Cornell University,male,regular,2014-08-18 23:25:40.943406,2014-08-18 23:25:40.943406
+81,Larissa Gama de Paula,ldepaula@brynmawr.edu,2018,Relações Internacionais- Bryn Mawr College,Other,female,regular,2014-08-19 16:08:13.053009,2014-08-19 16:08:13.053009

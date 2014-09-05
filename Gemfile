@@ -39,7 +39,9 @@ ruby '2.0.0'
 
 # Brasa gems
 gem 'devise'
+gem "letter_opener", :group => :development
 gem "font-awesome-rails"
+gem 'postgres-copy'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -47,6 +47,17 @@
 			<label class="radio"><%= f.radio_button :gender, "male" %><i></i>Masculino</label>
   	</div>
 	</div>
+	<div class="field">
+		<div class="col-md-4 col-sm-4 col-xs-4">
+			<label class="radio"><%= f.radio_button :status, "undergraduate", checked: true %><i></i>Undergraduate (Graduação)</label>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4">
+			<label class="radio"><%= f.radio_button :gender, "graduate" %><i></i>Graduate (Pós-Graduação)</label>
+	  </div>
+		<div class="col-md-4 col-sm-4 col-xs-4">
+			<label class="radio"><%= f.radio_button :gender, "graduate" %><i></i>Alumni</label>
+		 </div>
+	</div>
   <div class="actions">
     <%= f.button class: "button" do %>
 			<i class="fa fa-check"></i>
