@@ -54,3 +54,17 @@ en:
   universities: "Partner Universities"
   universities_text: "With the partnership of many american universities, BRASA intends to develop the student community in the United States."
 
+  name: "Full Name"
+  graduation: "Graduation Year"
+  university: "University"
+  other: "Other"
+  female: "Female"
+  male: "Male"
+  undergraduate: "Undergraduate"
+  graduate: "Graduate"
+  alumni: "Alumni"
+  submit: "Submit registration"
+
+  partners: "Partners"
+  new_user: "New user"
+

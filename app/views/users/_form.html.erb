@@ -1,5 +1,5 @@
 <%= form_for(@user, html: {class: "sky-form boxed"}) do |f| %>
-  <header>Novo usuário</header>
+  <header><%= t :new_user %></header>
 	
 	<% if @user.errors.any? %>
     <div id="error_explanation">
@@ -16,7 +16,7 @@
 
 	<section class="col col-md-6">
   <div class="field">
-    <%= f.label :name, "Nome Completo" %><br>
+    <%= f.label :name, t(:name) %><br>
     <label class="input"><%= f.text_field :name, required: true %></label>
   </div>
   <div class="field">
@@ -24,7 +24,7 @@
     <label class="input"><%= f.text_field :email, required: true %></label>
   </div>
   <div class="field">
-    <%= f.label :graduation_year, "Ano de Graduação" %><br>
+    <%= f.label :graduation_year, t(:graduation) %><br>
     <label class="input"><%= f.number_field :graduation_year, required: true %></label>
   </div>
  </section>
@@ -36,32 +36,32 @@
 		<label class="input"><%= f.text_field :major, required: true %></label>
   </div>
   <div class="field">
-    <%= f.label :university, "Universidade" %><br>
-    <label class="input"><%= f.select :university, options_for_select([""] + UNIVERSITIES + ["Other"]) %></label>
+    <%= f.label :university, t(:university) %><br>
+    <label class="input"><%= f.select :university, options_for_select([""] + UNIVERSITIES + [t(:other)]) %></label>
   </div>
   <div class="field">
 		<div class="col-md-4 col-sm-4 col-xs-4">
-			<label class="radio"><%= f.radio_button :gender, "female", checked: true %><i></i>Feminino</label>
+			<label class="radio"><%= f.radio_button :gender, "female", checked: true %><i></i><%= t :female %></label>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-4">
-			<label class="radio"><%= f.radio_button :gender, "male" %><i></i>Masculino</label>
+			<label class="radio"><%= f.radio_button :gender, "male" %><i></i><%= t(:male) %></label>
   	</div>
 	</div>
 	<div class="field">
 		<div class="col-md-4 col-sm-4 col-xs-4">
-			<label class="radio"><%= f.radio_button :status, "undergraduate", checked: true %><i></i>Undergraduate (Graduação)</label>
+			<label class="radio"><%= f.radio_button :role, "undergraduate", checked: true %><i></i><%= t(:undergraduate) %></label>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-4">
-			<label class="radio"><%= f.radio_button :gender, "graduate" %><i></i>Graduate (Pós-Graduação)</label>
+			<label class="radio"><%= f.radio_button :role, "graduate" %><i></i><%= t(:graduate) %></label>
 	  </div>
 		<div class="col-md-4 col-sm-4 col-xs-4">
-			<label class="radio"><%= f.radio_button :gender, "graduate" %><i></i>Alumni</label>
+			<label class="radio"><%= f.radio_button :role, "alumni" %><i></i><%= t(:alumni) %></label>
 		 </div>
 	</div>
   <div class="actions">
     <%= f.button class: "button" do %>
 			<i class="fa fa-check"></i>
-			Completar Registro
+			<%= t(:submit) %>
 		<% end %>
   </div>
 </section>

@@ -14,7 +14,7 @@ pt:
   join_title: "Junte-se a nós"
   join_text: "É estudante ou graduado em alguma universidade dos EUA, interessado no Brasil?"
 
-  register: "Inscreva-se aqui"
+  register: "Registre-se aqui"
 
   initiatives_title: "Frentes de Atuação"
   initiatives_text: "A BRASA visa dar apoio a estudantes brasileiros desde antes do ingresso à universidade nos Estados Unidos até a busca de empregos e o planejamento de carreira pós-universidade."
@@ -32,3 +32,17 @@ pt:
 
   universities: "Faculdades Associadas"
   universities_text: "Com presença em dezenas de faculdades americanas, A BRASA visa desenvolver a comunidade estudantil nos Estados Unidos."
+
+  name: "Nome Completo"
+  graduation: "Ano de Graduação"
+  university: "Universidade"
+  other: "Outra"
+  female: "Feminino"
+  male: "Masculino"
+  undergraduate: "Undergraduate (Graduação)"
+  graduate: "Graduate (Pós-Graduação)"
+  alumni: "Alumni"
+  submit: "Completar Registro"
+
+  partners: "Parceiros"
+  new_user: "Novo usuário"
