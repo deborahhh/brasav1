@@ -20,4 +20,37 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  mission_title: "MISSION"
+  mission_text: "Unite students engaged with Brazil, through the creation of platforms that contribute to the development of the country."
+
+  vision_title: "VISION"
+  vision_text: "Ser a melhor comunidade de estudantes engajados com o Brasil nos Estados Unidos, unida em prol do desenvolvimento do Brasil."
+  values_title: "VALUES"
+  values_engagement: "Engagement with Brazil"
+  values_proactivity: "Proactivity"
+  values_ethics: "Ethics"
+  values_excellence: "Excellence"
+  values_meritocracy: "Meritocracy"
+
+  join_title: "Join us"
+  join_text: "Are you a student or alumni from an american university, interested in Brazil?"
+
+  register: "Register here"
+
+  initiatives_title: "Initiatives"
+  initiatives_text: "BRASA is willing to help Brazilian students since their preparation to college until their search for jobs and career planning after college."
+  preuni_title: "Pre-University"
+  preuni_l1: "Mentor high school students."
+
+  uni_title: "University"
+  uni_l1: "Organize events and pannels in both regional and national levels."
+  uni_l2: "Promote the Brazilian culture and the Portuguese language."
+  uni_l3: "Help students who want to get summer jobs in Brazil."
+
+  postuni_title: "Post-University"
+  postuni_l1: "Help graduating students who are willing to get full-time jobs in Brazil."
+  postuni_l2: "Create and maintain a strong network of Brazilian students who have graduated from schools in our network."
+
+  universities: "Partner Universities"
+  universities_text: "With the partnership of many american universities, BRASA intends to develop the student community in the United States."
+

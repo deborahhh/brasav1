@@ -1,0 +1,34 @@
+pt:
+  mission_title: "MISSÃO"
+  mission_text: "Criar plataformas através das quais estudantes nos Estados Unidos possam se engajar com o Brasil, inspirando-os a contribuir para o desenvolvimento do país."
+  vision_title: "VISÃO"
+  vision_text: "Ser a melhor comunidade de estudantes engajados com o Brasil nos Estados Unidos, unida em prol do desenvolvimento do Brasil."
+  values_title: "VALORES"
+  values_text: "Ser a melhor comunidade de estudantes engajados com o Brasil nos Estados Unidos, unida em prol do desenvolvimento do Brasil."
+  values_engagement: "Engajamento com o Brasil"
+  values_proactivity: "Pró-atividade"
+  values_ethics: "Ética"
+  values_excellence: "Excelência"
+  values_meritocracy: "Meritocracia"
+
+  join_title: "Junte-se a nós"
+  join_text: "É estudante ou graduado em alguma universidade dos EUA, interessado no Brasil?"
+
+  register: "Inscreva-se aqui"
+
+  initiatives_title: "Frentes de Atuação"
+  initiatives_text: "A BRASA visa dar apoio a estudantes brasileiros desde antes do ingresso à universidade nos Estados Unidos até a busca de empregos e o planejamento de carreira pós-universidade."
+  preuni_title: "Pré-universidade"
+  preuni_l1: "Mentoria para alunos de ensino médio."
+
+  uni_title: "Universidade"
+  uni_l1: "Organizar eventos e painéis a nivel nacional e regional."
+  uni_l2: "Promover a cultura Brasileira e a língua Portuguesa."
+  uni_l3: "Auxiliar estudantes que desejam conseguir “summer jobs” no Brasil."
+
+  postuni_title: "Pós-Universidade"
+  postuni_l1: "Auxiliar estudantes que desejam conseguir empregos no Brasil após a graduação."
+  postuni_l2: "Criar e manter uma forte rede de estudantes já graduados em universidades americanas."
+
+  universities: "Faculdades Associadas"
+  universities_text: "Com presença em dezenas de faculdades americanas, A BRASA visa desenvolver a comunidade estudantil nos Estados Unidos."

@@ -16,7 +16,7 @@
 								data-y="140"
 								data-speed="300"
 								data-start="1000"
-								data-easing="easeOutExpo">MISSÃO
+								data-easing="easeOutExpo"><%= t :mission_title %>
 							</div>
 
 							<div class="tp-caption small_light_white sft stb"
@@ -24,7 +24,7 @@
 								data-y="216"
 								data-speed="500"
 								data-start="2000"
-								data-easing="easeOutExpo">Criar plataformas através das quais estudantes nos Estados Unidos possam se engajar com o Brasil, inspirando-os a contribuir para o desenvolvimento do país.
+								data-easing="easeOutExpo"><%= t :mission_text %>
 							</div>
 
 							<div class="tp-caption sft medium_light_white" 
@@ -58,7 +58,7 @@
 								data-y="87" 
 								data-speed="300" 
 								data-start="1200" 
-								data-easing="easeOutExpo">VISÃO
+								data-easing="easeOutExpo"><%= t :vision_title %>
 							</div>
 
 							<div class="tp-caption lfb small_light_white" 
@@ -66,7 +66,7 @@
 								data-y="180" 
 								data-speed="300" 
 								data-start="1400" 
-								data-easing="easeOutExpo">Ser a melhor comunidade de estudantes engajados com o Brasil nos Estados Unidos, unida em prol do desenvolvimento do Brasil.
+								data-easing="easeOutExpo"><%= t :vision_text %>
 							</div>
 
 
@@ -90,7 +90,7 @@
 								data-y="87" 
 								data-speed="300" 
 								data-start="1200" 
-								data-easing="easeOutExpo">VALORES
+								data-easing="easeOutExpo"><%= t :values_title %>
 							</div>
 
 							<div class="tp-caption lfb medium_light_white" 
@@ -100,12 +100,12 @@
 								data-start="1400" 
                                 data-easing="easeOutExpo">
                                 <ul>
-                                    <li>Engajamento com o Brasil</li>
-                                    <li>Pró-atividade</li>
-                                    <li>Ética</li>
-                                    <li>Excelência</li>
-																		<li>Meritocracia</li>
-
+                                    <li><%= t :values_engagement %></li>
+                                    <li><%= t :values_proactivity %></li>
+                                    <li><%= t :values_ethics %></li>
+                                    <li><%= t :values_excellence %></li>
+                                    <li><%= t :values_meritocracy %></li>
+																</ul>
 							</div>
 						</li>
 
@@ -126,12 +126,12 @@
 					<div class="row">
 
 						<div class="col-md-9"><!-- title + shortdesc -->
-							<h3>Junte-se a nós</h3>
-							<p>É estudante ou graduado em alguma universidade dos EUA, interessado no Brasil?</p>
+							<h3><%= t :join_title %></h3>
+							<p><%= t :join_text %></p>
 						</div>
 
 						<div class="col-md-3"><!-- button -->
-                            <%= link_to "Inscreva-se aqui", new_user_path, class: "btn btn-primary btn-lg" %>
+                            <%= link_to t(:register), new_user_path, class: "btn btn-primary btn-lg" %>
 						</div>
 
 					</div>
@@ -144,10 +144,8 @@
 			<section>
 				<div class="container">
 					<header>
-						<h2>
-							Frentes de Atuação
-						</h2>
-						<p class="lead">A BRASA visa dar apoio a estudantes brasileiros desde antes do ingresso à universidade nos Estados Unidos até a busca de empregos e o planejamento de carreira pós-universidade. </p>
+						<h2><%= t :initiatives_title %></h2>
+						<p class="lead"><%= t :initiatives_text %></p>
 					</header>
 
 
@@ -156,31 +154,29 @@
 					<div class="row featured-box-minimal">
 
 						<div class="col-md-4 col-sm-6 col-xs-12">
-							<h4>Pré-Universidade</h4>
+							<h4><%= t :preuni_title %></h4>
 							<ul class="list-icon spaced check-circle">
-															<li>Mentoria para alunos de ensino médio.</li>
-														</ul>
+								<li><%= t :preuni_l1 %></li>
+							</ul>
 						</div>
 
 						<div class="col-md-4 col-sm-6 col-xs-12">
-							<h4>Universidade</h4>
+							<h4><%= t :uni_title %></h4>
 							
 							<ul class="list-icon spaced check-circle">
-															<li>Organizar eventos e painéis a nivel nacional e regional.</li>
-															<li>Promover a cultura Brasileira e a língua Portuguesa.</li>
-															<li>Auxiliar estudantes que desejam conseguir “summer jobs” no
-															Brasil.</li>
-															
-														</ul>
+								<li><%= t :uni_l1 %></li>
+								<li><%= t :uni_l2 %></li>
+								<li><%= t :uni_l3 %></li>
+							</ul>
 							
 						</div>
 
 						<div class="col-md-4 col-sm-6 col-xs-12">
-							<h4>Pós-Universidade</h4>
+							<h4><%= t :postuni_title %></h4>
 							<ul class="list-icon spaced check-circle">
-															<li>Auxiliar estudantes que desejam conseguir empregos no Brasil após a graduação.</li>
-															<li>Criar e manter uma forte rede de estudantes já graduados em universidades americanas.</li>		
-														</ul>
+								<li><%= t :postuni_l1 %></li>
+								<li><%= t :postuni_l2 %></li>		
+							</ul>
 						</div>
 						
 					</div>
@@ -194,8 +190,8 @@
 			<div class="callout dark arrow-up">
 				<div class="container text-center">
 
-					<h2>Faculdades Associadas</h2>
-					<p>Com presença em dezenas de faculdades americanas, A BRASA visa desenvolver a comunidade estudantil nos Estados Unidos.</p>
+					<h2><%= t :universities %></h2>
+					<p><%= t :universities_text %></p>
 					
 					<div class="divider half-margins hidden-xs"><!-- divider --></div>
 
