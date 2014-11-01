@@ -1,4 +1,5 @@
 Brasa::Application.routes.draw do
+  devise_for :users
   resources :users
   
   get 'estudar_nos_eua' => 'welcome#estudar_nos_eua'
